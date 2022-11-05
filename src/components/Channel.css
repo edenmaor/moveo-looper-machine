@@ -5,6 +5,7 @@
     align-items: center;
     margin: 10px;
     border-radius: 5px;
+    font-family: monospace;
 }
 .track-structure {
     display: flex;

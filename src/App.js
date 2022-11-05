@@ -2,7 +2,7 @@ import './App.css';
 import Channel from "./components/Channel";
 import React, {useState, useEffect} from 'react'
 import audioFiles from "./components/Track";
-
+import moveoLogo from './moveo.jpg'
 
 function App() {
     const [checked, setChecked] = useState(true);
@@ -29,8 +29,10 @@ function App() {
     return (
         <div className="App">
         <header className={'header'}>
-            Moveo Looper Machine
-            <a className={'logo'} href={'moveo.jpg'}/>
+            <img className={'logo'} src={moveoLogo}/>
+            <div className={'title'}>
+               Moveo Looper Machine
+            </div>
         </header>
 
         {
